@@ -1,0 +1,15 @@
+[package]
+name = "fuse-store"
+version = "0.1.0"
+description = "A Distributed Table Storage Service"
+authors = ["BohuTANG <bohu@datafuse.dev>", "Peter <peter@datafuse.dev>", "Kevin <kevin@datafuse.dev>"]
+license = "AGPL-3.0"
+include = [
+    "benches/*.rs",
+    "src/**/*.rs",
+    "Cargo.toml",
+]
+edition = "2018"
+
+
+[dependencies]
